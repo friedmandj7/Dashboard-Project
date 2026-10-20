@@ -1,3 +1,25 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+/* Main grid */
+.aboutSolar {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.whySolar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.savings{
+    display: flex;
+}
+img {
+    width: 100%;
+    max-width: 250px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 12px;
 }
