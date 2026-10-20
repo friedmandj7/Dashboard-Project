@@ -1,0 +1,12 @@
+.area-coverage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+#area-image {
+    height: auto;
+    max-width: 25%;
+}
